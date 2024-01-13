@@ -1,8 +1,9 @@
 # Descrybe.AI Plugin
 
-<i>📢 Please note, this is a fan-made project and, therefore, is not officially created or support by [Descrybe.AI](https://descrybe.ai) – happy searching!</i>
+<i>📢 Please note, this is a fan-made project and is not officially created or support by [Descrybe.AI](https://descrybe.ai) – happy searching!</i>
 <h2> </h2>
-DescrybeAIPlugin is a browser plugin created for Chrome-based browsers to enhance users' experience on Descrybe.ai. This extension allows you to create and manage collections of search queries, making it easier to organize and revisit essential items found in your search.
+
+[Descrybe.AI](https://descrybe.ai) is a singular way to search for, and understand, caselaw. This browser plugin, developed for Chrome-based browsers, enhances the user experience on Descrybe.AI. It enables users to create and manage collections of search queries, simplifying the process of organizing and revisiting key items discovered during caselaw searches or while conducting research on different websites.
 
 <h3>Just Make a Query:</h3>
 <img width="100%" alt="User making a query with the terms cyberbulling harassment in the search bar" src="https://github.com/JacquelineDMcGraw/DescrybeAIPlugin/assets/3221841/061f4753-69eb-44c8-8830-02f7b8f3ee9a">
