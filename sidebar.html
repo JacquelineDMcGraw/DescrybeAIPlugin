@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Saved Items</title>
+  <meta charset="UTF-8">
+  <script src="sidebar.js"></script>
+  <style>
+    .item-div {
+      padding-bottom: 4px;
+      border-radius: 5px;
+      background-color: #ececec;
+    }
+    .button-container {
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px;
+    }
+    #savedItemsList {
+      padding-left: 5px !important;
+    }
+    .custom-button {
+      --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+      --tw-text-opacity: 1;
+      --tw-bg-opacity: 1;
+      box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+      color: rgb(255 255 255 / var(--tw-text-opacity));
+      font-weight: 600;
+      font-size: 0.875rem;
+      line-height: 1.5rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+      background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+      border-radius: 0.375rem;
+      align-items: center;
+      display: inline-flex;
+      cursor: pointer;
+      border: none;
+      outline: none;
+    }
+    .custom-button:focus {
+      outline: 2px solid #000;
+      outline-offset: 2px;
+    }
+  </style>
+</head>
+<body>
+   <div class="button-container">
+    <button id="closeButton" class="custom-button" aria-label="Close">Close</button>
+  </div>
+  <div class="item-div">
+    <ul id="savedItemsList" role="list"></ul>
+  </div>
+</body>
+</html>
