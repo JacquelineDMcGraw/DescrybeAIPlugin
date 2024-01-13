@@ -21,7 +21,7 @@
 <img width="100%" alt="User adding their selections to the plugin after make a new query which then creates a new header title to keep its relative selections under" src="https://github.com/JacquelineDMcGraw/DescrybeAIPlugin/assets/3221841/3d28b2d6-2628-4984-a208-891be22f7276">
 
 
-<h2>✅ Selections stay saved until unchecked for future reference.</h2>
+<h2>✅ Selections stay saved for future reference until unchecked.</h2>
 
 <br/>
 
