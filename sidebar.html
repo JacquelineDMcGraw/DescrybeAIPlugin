@@ -5,10 +5,13 @@
   <meta charset="UTF-8">
   <script src="sidebar.js"></script>
   <style>
+    body {
+      background-color: #ececec;
+    }
     .item-div {
       padding-bottom: 4px;
       border-radius: 5px;
-      background-color: #ececec;
+      background-color: #fff;
     }
     .button-container {
       display: flex;
@@ -43,6 +46,28 @@
     .custom-button:focus {
       outline: 2px solid #000;
       outline-offset: 2px;
+    }
+    #savedItemsList a:hover {
+      color: black;
+      background-image: linear-gradient(to bottom, transparent 65%, #b4d6fe 0);
+      text-decoration: none;
+    }
+
+#savedItemsList a {
+    color: black; 
+    text-decoration: underline; 
+    cursor: pointer;
+}
+
+    #savedItemsList a:hover {
+      color: black;
+      background-image: linear-gradient(to bottom, transparent 65%, #b4d6fe 0);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      text-decoration: none;
+    }
+    li {
+      list-style: disc;
     }
   </style>
 </head>
